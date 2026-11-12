@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Vijayalakshmi ❤️</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.container {
+    background: white;
+    padding: 35px 22px;
+    border-radius: 25px;
+    width: 90%;
+    max-width: 430px;
+    box-shadow: 0 10px 35px #a9446255;
+}
+
+h1 {
+    color: #e84393;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.main-emoji {
+    font-size: 85px;
+    margin: 15px;
+}
+
+button {
+    background: linear-gradient(45deg, #ff4d88, #b84dff);
+    color: white;
+    border: none;
+    padding: 15px 28px;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px #e8439380;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+
+#surprise {
+    display: none;
+    margin-top: 25px;
+    animation: appear 1s ease;
+}
+
+#surprise h2 {
+    color: #e84393;
+    margin: 15px 0;
+}
+
+#surprise p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.cute {
+    font-size: 65px;
+    margin: 15px;
+    animation: bounce 1.2s infinite;
+}
+
+.hearts {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+}
+
+footer {
+    margin-top: 25px;
+    color: #e84393;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="main-emoji">🌸💗🌸</div>
+
+    <h1>Dear Vijayalakshmi ❤️</h1>
+
+    <p class="subtitle">
+        A special little surprise is waiting for you! 🥰
+        <br>
+        Click the button below...
+    </p>
+
+    <button onclick="showSurprise()">
+        🎁 Open Your Surprise
+    </button>
+
+    <div id="surprise">
+
+        <div class="cute">🧸</div>
+
+        <h2>Love You Didi! 💖</h2>
+
+        <p>
+            Aap meri sabse special Didi ho! 🌷
+            <br>
+            Hamesha khush raho,
+            <br>
+            Hamesha muskurati raho! 😊
+            <br><br>
+            Aapki smile bahut special hai! 🥰
+        </p>
+
+        <div class="hearts">
+            💗 🧸 💕 🌸 💖
+        </div>
+
+        <h2>Best Didi Ever! 👑</h2>
+
+    </div>
+
+    <footer>
+        Made with ❤️ by Aman Singh
+    </footer>
+
+</div>
+
+<script>
+function showSurprise() {
+
+    document.getElementById("surprise").style.display = "block";
+
+    document.querySelector("button").innerHTML =
+    "💖 Surprise Opened!";
+
+}
+</script>
+
+</body>
+</html>
